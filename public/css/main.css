@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #000;
+    height: 36.36px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+a:hover{
+    font-size: 1.5rem;
+    transition: .3s linear;
+}

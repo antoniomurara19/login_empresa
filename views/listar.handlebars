@@ -1,0 +1,16 @@
+<h1>Lista dos Users</h1>
+
+<table border="1">
+    <thead>
+        <th>ID</th>
+        <th>Nome</th>
+    </thead>
+{{#each dados}}
+    <tbody>
+        <tr>
+            <td>{{this.codigo}}</td>
+            <td>{{this.nome}}</td>
+        </tr>
+    </tbody>
+{{/each}}
+</table>
